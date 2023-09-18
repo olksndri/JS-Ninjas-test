@@ -156,7 +156,7 @@ export const EditHero = ({
                 <Input id="catch_phrase" name="catch_phrase" multiline />
               </FormControl>
               <FormControl>
-                <InputLabel htmlFor="image_link">Image link</InputLabel>
+                <InputLabel htmlFor="image_link">Add image by link</InputLabel>
                 <Input id="image_link" name="image_link" multiline />
               </FormControl>
               <Box
