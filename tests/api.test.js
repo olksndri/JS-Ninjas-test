@@ -2,9 +2,9 @@ const request = require("supertest");
 
 const baseUrl = "http://127.0.0.1:3300/api/heroes";
 
-describe("routes", function () {
+describe("Test API", function () {
   beforeAll(() => {
-    console.log("Start testing routes");
+    console.log("Start testing API");
   });
 
   let id;
