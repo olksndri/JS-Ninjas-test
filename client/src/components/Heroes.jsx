@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { LoadMoreBtn } from "./LoadMoreBtn";
 import { HeroesList } from "./HeroesList";
-import { EditHeroMenu } from "./EditHeroMenu";
+import { EditHero } from "./EditHero";
 import { Report } from "notiflix/build/notiflix-report-aio";
 import { Notify } from "notiflix/build/notiflix-notify-aio";
 import { deleteHeroById, getHeroes } from "../js/async";
@@ -67,7 +67,7 @@ export const Heroes = () => {
         <div className={css["btn_wrap"]}>
           {!err && !lastPage && <LoadMoreBtn onLoad={onLoad} />}
           {!err && (
-            <EditHeroMenu
+            <EditHero
               open={modalOpen}
               onClose={closeHandler}
               onOpen={openHandler}

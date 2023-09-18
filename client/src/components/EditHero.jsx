@@ -24,7 +24,7 @@ const style = {
   p: 4,
 };
 
-export const EditHeroMenu = ({
+export const EditHero = ({
   open,
   onClose,
   onOpen,

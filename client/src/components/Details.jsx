@@ -2,7 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { getHeroById } from "../js/async";
 import { MyGallery } from "./ImageGallery";
-import { EditHeroMenu } from "./EditHeroMenu";
+import { EditHero } from "./EditHero";
 import css from "../styles/Details.module.css";
 
 export const Details = () => {
@@ -50,7 +50,7 @@ export const Details = () => {
         </Link>
       </div>
       <div className={css["edit_menu_wrap"]}>
-        <EditHeroMenu
+        <EditHero
           open={modalOpen}
           onClose={closeHandler}
           onOpen={openHandler}
