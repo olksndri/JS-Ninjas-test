@@ -4,8 +4,6 @@ import { NotFound } from "./NotFound";
 import { Details } from "./Details";
 import { SharedLayout } from "./SharedLayout";
 
-// import { lazy } from "react";
-
 export const App = () => {
   return (
     <>
